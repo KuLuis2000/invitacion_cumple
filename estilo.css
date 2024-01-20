@@ -1,0 +1,85 @@
+body{
+  font-family: helvetica;
+}
+
+.ancho{
+  border: 3px red solid;
+  margin: auto;
+  border-radius: 15px;
+  border-style: dotted;
+  height: 100%;
+}
+.ancho h1{
+  text-align: center;
+  font-size: 60px;
+  color: red;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.festejo{
+  margin: auto;
+  width: 300px;
+}
+
+.festejo img{
+  width: 100%;
+}
+
+.boton_mensaje{
+  margin: auto;
+  padding: 20px;
+  width: 90%;
+  text-align: center;
+}
+
+.boton_mensaje a{
+  text-decoration: none;
+  color: black;
+  border: 2px red solid;
+  background-color: red;
+  color: white;
+  padding: 20px;
+  font-size: 30px;
+  border-radius: 15px;
+  margin: 10px;
+}
+
+.confirmar{
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.mensaje{
+  font-size: 20px;
+}
+
+.asistencia{
+  font-size: 20px;
+  background-color: red;
+  color: white;
+  padding: 15px;
+  border: 1px red solid;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.calendario{
+  width: 100px;
+}
+
+.reloj{
+  border-radius: 100%;
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+}
+
+.mapa{
+  width: 95%;
+  height: 300px;
+}
+
+h2{
+  text-align: center;
+}

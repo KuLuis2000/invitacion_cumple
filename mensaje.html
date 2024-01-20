@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src='https://kit.fontawesome.com/2ee0245f3d.js' crossorigin='anonymous'></script>
+  <link rel="stylesheet" href="estilo.css">
+  <link rel="icon" href="Imagenes/invitación.png"/>
+  <title>Mensaje</title>
+</head>
+<body>
+  <div class="ancho">
+    <div class="mensaje">
+      <p>Me es grato invitarte a cortar mi pastel de cumpleaños número 24, espero contar con tu asistencia</p>
+    
+    <ul>
+      <li>Fecha: Sábado 27 de Enero de 2024</li>
+      <img class="calendario" src="Imagenes/calendario.gif" alt="">
+      <br><br><br><br><br>
+      <li>Hora: 6 pm</li>
+      <img class="reloj" src="Imagenes/reloj.gif" alt="">
+      <br><br><br><br><br>
+      <li>Lugar: C. 104 # 893 x 75 y 77 Col. Nueva Sambula</li>
+      <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3726.0724143530115!2d-89.65938872606853!3d20.949606890495048!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5672533824f4c7%3A0x895d994c6e74ce70!2sC.%20104%20893%2C%20Nueva%20Sambul%C3%A1%2C%2097250%20M%C3%A9rida%2C%20Yuc.!5e0!3m2!1ses!2smx!4v1705781869248!5m2!1ses!2smx" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </ul>
+
+    <h2>¡¡¡NO FALTES!!!</h2>
+
+    <div class="confirmar">
+      <button class="asistencia" onclick="enviarMensajeWhatsApp()">Confirmar asistencia</button>
+    </div>
+
+    <script>
+        function enviarMensajeWhatsApp() {
+            // Número de teléfono al que se enviará el mensaje (sin el signo + y prefijo de país)
+            var numeroTelefono = '9999024520';
+            
+            // Mensaje predeterminado
+            var mensaje = 'Confirmo mi asistencia 🥳';
+
+            // Crear el enlace de WhatsApp con los parámetros necesarios
+            var enlaceWhatsApp = 'https://api.whatsapp.com/send?phone=' + numeroTelefono + '&text=' + encodeURIComponent(mensaje);
+
+            // Abrir la ventana de WhatsApp
+            window.open(enlaceWhatsApp, '_blank');
+        }
+    </script>
+    <br><br>
+    </div>
+  </div>
+</body>
+</html>
