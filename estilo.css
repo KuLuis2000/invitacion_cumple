@@ -1,19 +1,29 @@
 body{
   font-family: helvetica;
+  background-image: url(Imagenes/images.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
+.ancho_index{
+  margin: auto;
+  height: 100%;
+}
 .ancho{
-  border: 3px red solid;
+  border: 3px black solid;
   margin: auto;
   border-radius: 15px;
   border-style: dotted;
   height: 100%;
+  background-image: url(Imagenes/Confeti.gif);
 }
-.ancho h1{
+.ancho_index h1{
   text-align: center;
   font-size: 60px;
-  color: red;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(177, 17, 17);
+  font-family: helvetica;
+  font-weight: bold;
 }
 
 .festejo{
@@ -23,6 +33,7 @@ body{
 
 .festejo img{
   width: 100%;
+  border-radius: 100%;
 }
 
 .boton_mensaje{
@@ -44,9 +55,17 @@ body{
   margin: 10px;
 }
 
+.spiderman{
+  text-align: center;
+}
+
 .confirmar{
   width: 50%;
   margin: auto;
+  text-align: center;
+}
+
+.spidermans{
   text-align: center;
 }
 
@@ -55,7 +74,7 @@ body{
 }
 
 .asistencia{
-  font-size: 20px;
+  font-size: 25px;
   background-color: red;
   color: white;
   padding: 15px;
@@ -66,6 +85,8 @@ body{
 
 .calendario{
   width: 100px;
+  background-color: white;
+  border-radius: 30%;
 }
 
 .reloj{
